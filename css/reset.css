@@ -1,0 +1,153 @@
+/* line 6, sass/reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 9, sass/reset.scss */
+.bg-gray {
+  background-color: #e0e0e0;
+}
+
+/* line 13, sass/reset.scss */
+.text-white {
+  color: #fff;
+}
+
+/* line 16, sass/reset.scss */
+.hide {
+  display: none;
+}
+
+/* line 19, sass/reset.scss */
+.show {
+  display: block;
+}
+
+/* line 22, sass/reset.scss */
+.navbar {
+  border-radius: 0px;
+}
+
+/* line 25, sass/reset.scss */
+footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: #101010;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 32, sass/reset.scss */
+footer h1 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* line 37, sass/reset.scss */
+.content {
+  padding-bottom: 40px;
+}
+
+/* line 41, sass/reset.scss */
+.searchBar {
+  padding: 10px 0;
+  position: relative;
+}
+/* line 44, sass/reset.scss */
+.searchBar input {
+  border: 0px;
+  width: 150px;
+  height: 30px;
+  padding-left: 4px;
+  padding-right: 30px;
+  border-radius: 4px;
+}
+/* line 52, sass/reset.scss */
+.searchBar button {
+  position: absolute;
+  background-color: #D9EDF7;
+  padding: 5px 8px;
+  top: 10px;
+  border: 0px;
+  right: 0px;
+  border-radius: 0px 4px 4px 0px;
+}
+/* line 61, sass/reset.scss */
+.searchBar button:hover span {
+  color: white;
+}
+
+/* line 67, sass/reset.scss */
+.item {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background-color: #D9EDF7;
+}
+/* line 72, sass/reset.scss */
+.item .title {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+/* line 75, sass/reset.scss */
+.item .title .glyphicon {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* line 79, sass/reset.scss */
+.item .title .btn-save, .item .title .btn-del {
+  color: #777;
+  font-size: 16px;
+  text-decoration: none;
+}
+/* line 83, sass/reset.scss */
+.item .title .btn-save.active, .item .title .active.btn-del, .item .title .btn-save:hover, .item .title .btn-del:hover {
+  text-decoration: none;
+  color: #FF9800;
+}
+/* line 90, sass/reset.scss */
+.item .title .btn-del.active, .item .title .btn-del:hover {
+  color: #d9534f;
+}
+/* line 96, sass/reset.scss */
+.item .link {
+  font-size: 12px;
+  color: #337AB7;
+}
+/* line 100, sass/reset.scss */
+.item .desription {
+  font-size: 14px;
+}
+
+/* line 104, sass/reset.scss */
+.form-contaienr {
+  margin: 0 auto;
+  width: 400px;
+}
+/* line 107, sass/reset.scss */
+.form-contaienr .input-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* line 115, sass/reset.scss */
+.btn-hover {
+  position: fixed;
+  top: 200px;
+  right: -220px;
+  background: white;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #eee;
+  box-shadow: -2px 2px 8px #9E9E9E;
+  padding: 10px;
+  transition: right .3s ease-out;
+}
+/* line 126, sass/reset.scss */
+.btn-hover .btn {
+  width: 73px;
+}
+/* line 130, sass/reset.scss */
+.btn-hover.show {
+  right: 0px;
+}

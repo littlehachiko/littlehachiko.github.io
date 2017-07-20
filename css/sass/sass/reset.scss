@@ -1,0 +1,133 @@
+$blue:#337AB7;
+$light-blue:#D9EDF7;
+$black:#101010;
+
+//common
+a {
+    text-decoration: none;
+}
+.bg-gray {
+    background-color: #e0e0e0;
+}
+
+.text-white {
+    color: #fff;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.navbar {
+    border-radius: 0px;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: $black;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    h1 {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+.content {
+    padding-bottom: 40px;
+}
+//
+.searchBar {
+    padding:10px 0;
+    position: relative;
+    input {
+        border: 0px;
+        width: 150px;
+        height: 30px;
+        padding-left: 4px;
+        padding-right: 30px;
+        border-radius: 4px;
+    }
+    button {
+        position: absolute;
+        background-color: $light-blue;
+        padding: 5px 8px;
+        top: 10px;
+        border: 0px;
+        right: 0px;
+        border-radius: 0px 4px 4px 0px;
+        &:hover {
+            span {
+                color: white;
+            }
+        }
+    }
+}
+.item {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: $light-blue;
+    .title {
+        font-size: 24px;
+        margin-bottom: 0px;
+        .glyphicon {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .btn-save {
+            color: #777;
+            font-size: 16px;
+            text-decoration: none;
+            &.active,&:hover {
+                text-decoration: none;
+                color: #FF9800;
+            }
+        }
+        .btn-del {
+            @extend .btn-save;
+            &.active,&:hover {
+                color: #d9534f;
+            }
+            
+        }
+    }
+    .link {
+        font-size: 12px;
+        color:$blue;
+    }
+    .desription {
+        font-size: 14px;
+    }
+}
+.form-contaienr {
+    margin:0 auto;
+    width: 400px;
+    .input-group {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .btn-container {
+        
+    }
+}
+.btn-hover {
+    position: fixed;
+    top: 200px;
+    right: -220px;
+    background: white;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: -2px 2px 8px #9E9E9E;
+    padding: 10px;
+    transition: right .3s ease-out;
+    .btn {
+        // margin-bottom: 10px;
+        width:73px;
+    }
+    &.show {
+        right: 0px;
+    }
+}
